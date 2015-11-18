@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      li {
+        width: 200px;
+        height: 50px;
+        border: 2px solid red;
+        margin: 5px;
+        text-align: center;
+        font-size: 20px;
+        background-color: orange
+      }
+    </style>
+    <title>Whats Up Yo</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-header">Drag and Drop Sortable Example</h1>
+      <div class="row">
+
+        <!-- Playlist -->
+        <div class="col-md-6">
+          <h2>Playlist</h2>
+          <ul id="left" class="sort_this">
+            <li><span>one</span></li>
+            <li><span>two</span></li>
+            <li><span>three</span></li>
+            <li><span>four</span></li>
+            <li><span>five</span></li>
+            <li><span>six</span></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <h2>Library</h2>
+          <ul id="right" class="sort_this">
+            <li><span>une</span></li>
+            <li><span>deux</span></li>
+            <li><span>trois</span></li>
+            <li><span>quatre</span></li>
+            <li><span>cinq</span></li>
+            <li><span>six</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="javascripts/app.js"></script>
+  </body>
+</html>
